@@ -1,4 +1,4 @@
-package cat.uab;
+package cat.uab.tqs;
 
 public class Main {
     public static void main(String[] args) {
