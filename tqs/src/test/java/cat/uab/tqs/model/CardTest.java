@@ -26,10 +26,10 @@ public class CardTest
     }
 
     @Test
-    void testGetValueCard()
+    void testGetCardValue()
     {
         Card card = new Card("Hearts", "10");
-        assertEquals("10", card.getValue())
+        assertEquals(10, card.getCardValue());
 
     }
     

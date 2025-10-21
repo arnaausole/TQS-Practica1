@@ -24,6 +24,18 @@ public class Card
         return this.rank;
         
     }
+
+    public int getCardValue()
+    {
+        switch (rank) 
+        {
+            case "J": case "Q": case "K": return 10;
+            case "A": return 11;
+            default: return Integer.parseInt(rank); // pasa de string a int
+        }
+
+
+    }
     
 
     
